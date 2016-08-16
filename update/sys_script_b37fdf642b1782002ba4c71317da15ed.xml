@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>true</client_callable>
+        <collection>x_inhe_capital_bud_capital_budget</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>cap_req_item_event</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onAfter(current, previous) {
+	
+		if (current.operation() == 'insert') {
+		gs.eventQueue("x_inhe_capital_bud.Inserted", current, gs.getUserID(), gs.getUserName());
+	}
+	
+	if (current.operation() == 'insert' && (current.millwork_cabinets_counter_tops_etc == true || current.flooring == true || current.electrical_lighting == true || current.plumbing_fixtures == true || current.walls_doors_windows == true || current.data_voice_wiring == true || current.signage_way_finding_etc == true || current.medical_gases == true || current.furniture == true || current.heating_cooling_ventilation == true ||  current.other == true || current.wall_covering_paint == true)) {
+		gs.eventQueue("x_inhe_capital_bud.construction", current, gs.getUserID(), gs.getUserName());
+	}
+
+	if (current.operation() == 'update' && (current.millwork_cabinets_counter_tops_etc.changesTo(true) || current.flooring.changesTo(true) || current.electrical_lighting.changesTo(true) || current.plumbing_fixtures.changesTo(true) || current.electrical_lighting.changesTo(true) || current.walls_doors_windows.changesTo(true) || current.data_voice_wiring.changesTo(true) || current.signage_way_finding_etc.changesTo(true) || current.medical_gases.changesTo(true) || current.furniture.changesTo(true) ||  current.heating_cooling_ventilation.changesTo(true) ||  current.other.changesTo(true) ||  current.wall_covering_paint.changesTo(true))) {
+		gs.eventQueue("x_inhe_capital_bud.construction", current, gs.getUserID(), gs.getUserName());
+	}
+
+	if (current.operation() == 'insert' && (current.connects_to_or_uses_a_network == true || current.uses_protected_information == true || current.electronic_interface == true || current.other_systems_impacted == true || current.other_it_areas_involved == true)) {
+		gs.eventQueue("x_inhe_capital_bud.IT", current, gs.getUserID(), gs.getUserName());
+	}
+
+	if (current.operation() == 'update' && (current.connects_to_or_uses_a_network.changesTo(true) || current.uses_protected_information.changesTo(true) || current.electronic_interface.changesTo(true) || current.other_systems_impacted.changesTo(true) || current.other_it_areas_involved.changesTo(true))) {
+		gs.eventQueue("x_inhe_capital_bud.IT", current, gs.getUserID(), gs.getUserName());
+		
+	}
+
+	if (current.operation() == 'insert' && current.routine_capital_request == true) {
+		gs.eventQueue("x_inhe_capital_bud.Routine", current, gs.getUserID(), gs.getUserName());
+	}
+
+	if (current.operation() == 'update' && current.routine_capital_request.changesTo(true)) {
+		gs.eventQueue("x_inhe_capital_bud.Routine", current, gs.getUserID(), gs.getUserName());
+	}
+	
+	/*if (current.operation() == 'update') {
+		gs.eventQueue("x_inhe_capital_bud_capital_budget.updated", current, gs.getUserID(), gs.getUserName());
+	}*/
+	
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-21 14:04:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b37fdf642b1782002ba4c71317da15ed</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>cap_req_item_event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>sys_script_b37fdf642b1782002ba4c71317da15ed</sys_update_name>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2015-10-26 18:35:47</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

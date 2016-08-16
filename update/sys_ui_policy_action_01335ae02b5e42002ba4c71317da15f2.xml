@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>equipment_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>PeteBL</sys_created_by>
+        <sys_created_on>2015-09-01 13:50:50</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>01335ae02b5e42002ba4c71317da15f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>equipment_description</sys_name>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>sys_ui_policy_action_01335ae02b5e42002ba4c71317da15f2</sys_update_name>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2015-09-01 13:51:16</sys_updated_on>
+        <table>x_inhe_capital_bud_capital_budget</table>
+        <ui_policy display_value="show/hide Equipment Description">0a135ae02b5e42002ba4c71317da1585</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

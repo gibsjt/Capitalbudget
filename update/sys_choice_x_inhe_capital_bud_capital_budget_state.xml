@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_inhe_capital_bud_capital_budget" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Review requested</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>0</sequence>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2015-08-27 19:16:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c8ed6147a04602001b790bc9f78988af</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-27 19:17:51</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>1</sequence>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2015-08-27 19:17:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ecfde147a04602001b790bc9f789881e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-27 19:17:53</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deferred</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>2</sequence>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2015-08-27 19:17:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a00e6147a04602001b790bc9f78988b0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-27 19:17:56</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>3</sequence>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2015-08-27 19:17:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>720e2147a04602001b790bc9f78988fb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-27 19:17:59</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>PeteBL</sys_created_by>
+            <sys_created_on>2015-08-27 19:16:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2e50a2a548a38a802b97c6d5c3349626</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+            <sys_update_name>sys_choice_x_inhe_capital_bud_capital_budget_state</sys_update_name>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-27 19:17:59</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

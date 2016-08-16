@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Force No tabs</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	if (g_tabs2Sections.isActivated()) {
+		g_tabs2Sections.deactivate();
+	}
+    
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>PeteBL</sys_created_by>
+        <sys_created_on>2015-09-01 14:34:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b81d92642b5e42002ba4c71317da15f3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Force No tabs</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>sys_script_client_b81d92642b5e42002ba4c71317da15f3</sys_update_name>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2015-09-04 18:22:28</sys_updated_on>
+        <table>x_inhe_capital_bud_capital_budget</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="item_project_description" label="Item / Project Description" language="en" table="x_inhe_capital_bud_capital_budget">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>item_project_description</element>
+            <help/>
+            <hint/>
+            <label>Item / Project Description</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <plural>Item / Project Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-27 20:34:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>17aff98f2b0242002ba4c71317da15d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Item / Project Description</sys_name>
+            <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+            <sys_update_name>sys_documentation_x_inhe_capital_bud_capital_budget_item_project_description_en</sys_update_name>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-27 20:34:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

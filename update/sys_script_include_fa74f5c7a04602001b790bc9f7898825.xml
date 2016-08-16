@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_inhe_capital_bud.QueryData</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>QueryData</name>
+        <script><![CDATA[var QueryData = Class.create();
+QueryData.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getUserData: function(){
+		var results = this.newItem("results");
+		
+		var v_value = this.getParameter('sysparm_v_value');
+		var usr = new GlideRecord('sys_user');
+		usr.addQuery('sys_id', v_value);
+		usr.query();
+		while (usr.next()) {
+			this._addResults(usr.email);
+			this._addResults(usr.title);
+			this._addResults(usr.phone);
+			this._addResults(usr.department);
+		}
+	},
+	_addResults : function(value) {
+		var res = this.newItem("results");
+		res.setAttribute("value", value);
+	},
+	
+	getDeptName: function() {
+		var v_dept = this.getParameter('sysparm_v_dept');
+		var deptName = new GlideRecord('cmn_department');
+		deptName.addQuery('sys_id' , v_dept);
+		deptName.query();
+		while (deptName.next()) {
+			var v_name = deptName.name;
+		}
+		return v_name;
+	},
+	
+	type: 'QueryData'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>PeteBL</sys_created_by>
+        <sys_created_on>2015-08-27 19:46:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fa74f5c7a04602001b790bc9f7898825</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>QueryData</sys_name>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>sys_script_include_fa74f5c7a04602001b790bc9f7898825</sys_update_name>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2015-08-31 16:20:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="capital_request_type" table="x_inhe_capital_bud_capital_budget" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Appliances</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>0</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:35:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>40c042532bc242002ba4c71317da15b6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:38</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Audio / Visual Equipment</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>1</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:35:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>92c402932bc242002ba4c71317da15ce</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:39</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auto</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>2</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:36:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b9f48a532bc242002ba4c71317da154f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:39</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Carts / Cabinets</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>3</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:36:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ac0546932bc242002ba4c71317da15c8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:39</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Education</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>4</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:37:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>651546932bc242002ba4c71317da15bd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:39</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fitnes Equipment</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>5</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:37:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7d45cedf2b8242002ba4c71317da156e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:40</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Furniture</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>6</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:37:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0c5546932bc242002ba4c71317da15bd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:40</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Landscaping</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>7</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:38:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8e5586932bc242002ba4c71317da159f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:40</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance Equipment</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>8</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dc7546932bc242002ba4c71317da15c9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:40</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medical Imaging</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>9</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:38:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7885c6932bc242002ba4c71317da151c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:40</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Patient Care Equipment</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>10</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:38:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d99586932bc242002ba4c71317da15f0</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:41</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Patient Monitoring</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>11</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:39:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>21a5c6932bc242002ba4c71317da151d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:41</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plant Operations</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>12</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:39:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d9b58a532bc242002ba4c71317da15a0</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:41</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Signs</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>13</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:39:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e1c546932bc242002ba4c71317da15be</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:41</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>capital_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Surgical Equipment</label>
+            <language>en</language>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sequence>14</sequence>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d7c586932bc242002ba4c71317da15f1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:38</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>capital_request_type</element>
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:17:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a650a2a548a38a802b97c6d5c3349622</sys_id>
+            <sys_mod_count>48</sys_mod_count>
+            <sys_name>capital_request_type</sys_name>
+            <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+            <sys_update_name>sys_choice_x_inhe_capital_bud_capital_budget_capital_request_type</sys_update_name>
+            <sys_updated_by>PeteBL</sys_updated_by>
+            <sys_updated_on>2015-08-31 14:44:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>1300</order>
+        <question display_value="Capital Request Type">3f47fe972bc242002ba4c71317da159d</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-08-28 20:00:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f3710f5b2bc242002ba4c71317da15b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant Operations</sys_name>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>question_choice_f3710f5b2bc242002ba4c71317da15b0</sys_update_name>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-08-28 20:00:48</sys_updated_on>
+        <text>Plant Operations</text>
+        <value>13</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f3710f5b2bc242002ba4c71317da15b0"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>f3710f5b2bc242002ba4c71317da15b0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-08-28 20:00:48</sys_created_on>
+        <sys_id>3091439b2bc242002ba4c71317da1518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-08-28 20:00:48</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>f3710f5b2bc242002ba4c71317da15b0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-08-28 20:00:48</sys_created_on>
+        <sys_id>fc91439b2bc242002ba4c71317da1517</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-08-28 20:00:48</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

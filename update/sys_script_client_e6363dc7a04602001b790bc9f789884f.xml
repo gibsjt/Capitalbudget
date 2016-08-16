@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>name</field>
+        <global>true</global>
+        <messages/>
+        <name>Update user info</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	//alert('starting query ' + newValue);
+	var ba = new GlideAjax('QueryData');
+	ba.addParam('sysparm_name', 'getUserData');
+	ba.addParam('sysparm_v_value', newValue);
+	ba.getXML(doSomething);
+	
+	function doSomething(response){
+		var results = response.responseXML.getElementsByTagName("results");
+		var email = results[1].getAttribute("value");
+		var title = results[2].getAttribute("value");
+		var phone = results[3].getAttribute("value");
+		var dept = results[4].getAttribute("value");
+		//alert(email + " " + title + " " + phone);
+		g_form.setValue('email', email);
+		g_form.setValue('title', title);
+		g_form.setValue('contact_number', phone);
+		g_form.setValue('department', dept);
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>PeteBL</sys_created_by>
+        <sys_created_on>2015-08-27 19:54:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e6363dc7a04602001b790bc9f789884f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update user info</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>sys_script_client_e6363dc7a04602001b790bc9f789884f</sys_update_name>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2015-08-27 19:54:17</sys_updated_on>
+        <table>x_inhe_capital_bud_capital_budget</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

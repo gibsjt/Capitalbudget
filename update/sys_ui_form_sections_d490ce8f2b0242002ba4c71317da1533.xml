@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="d490ce8f2b0242002ba4c71317da1533" sys_domain="global" table="x_inhe_capital_bud_capital_budget" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-27 20:38:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d890ce8f2b0242002ba4c71317da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inhe_capital_bud_capital_budget" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">d490ce8f2b0242002ba4c71317da1533</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">311d2d07a04602001b790bc9f78988f2</sys_ui_section>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-27 20:38:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-27 20:38:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1c90ce8f2b0242002ba4c71317da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inhe_capital_bud_capital_budget" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">d490ce8f2b0242002ba4c71317da1533</sys_ui_form>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">5090ce8f2b0242002ba4c71317da1533</sys_ui_section>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-27 20:38:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-27 20:38:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9c90ce8f2b0242002ba4c71317da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inhe_capital_bud_capital_budget" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">d490ce8f2b0242002ba4c71317da1533</sys_ui_form>
+            <sys_ui_section caption="Construction Areas Involved" display_value="Construction Areas Involved" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">1490ce8f2b0242002ba4c71317da1533</sys_ui_section>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-27 20:38:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-27 20:55:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3b64cacf2b0242002ba4c71317da15e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inhe_capital_bud_capital_budget" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">d490ce8f2b0242002ba4c71317da1533</sys_ui_form>
+            <sys_ui_section caption="All IT Areas Involved" display_value="All IT Areas Involved" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">7764cacf2b0242002ba4c71317da15e1</sys_ui_section>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-27 20:55:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 14:50:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c89a3d132bc242002ba4c71317da15f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inhe_capital_bud_capital_budget" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">d490ce8f2b0242002ba4c71317da1533</sys_ui_form>
+            <sys_ui_section caption="Routine Capital Requests" display_value="Routine Capital Requests" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">089a3d132bc242002ba4c71317da15f5</sys_ui_section>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-28 14:50:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-28 15:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4ac68a932bc242002ba4c71317da1541</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_inhe_capital_bud_capital_budget" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">d490ce8f2b0242002ba4c71317da1533</sys_ui_form>
+            <sys_ui_section caption="Funding Requested" display_value="Funding Requested" name="x_inhe_capital_bud_capital_budget" sys_domain="global" view="Default view">86c68a932bc242002ba4c71317da1541</sys_ui_section>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-28 15:43:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_inhe_capital_bud_capital_budget</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>GibsJT</sys_created_by>
+            <sys_created_on>2015-08-27 20:38:17</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>d490ce8f2b0242002ba4c71317da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_inhe_capital_bud_capital_budget</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d490ce8f2b0242002ba4c71317da1533</sys_update_name>
+            <sys_updated_by>GibsJT</sys_updated_by>
+            <sys_updated_on>2015-08-27 20:38:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

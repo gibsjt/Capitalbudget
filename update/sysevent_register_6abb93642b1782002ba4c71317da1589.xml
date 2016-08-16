@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_inhe_capital_bud.Inserted</event_name>
+        <fired_by>Business Rule</fired_by>
+        <queue/>
+        <suffix>Inserted</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-21 12:10:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6abb93642b1782002ba4c71317da1589</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_inhe_capital_bud.Inserted</sys_name>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>sysevent_register_6abb93642b1782002ba4c71317da1589</sys_update_name>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2015-10-26 17:24:23</sys_updated_on>
+        <table>x_inhe_capital_bud_capital_budget</table>
+    </sysevent_register>
+</record_update>
