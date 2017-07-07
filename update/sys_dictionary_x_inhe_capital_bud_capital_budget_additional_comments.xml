@@ -3,6 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="additional_comments" table="x_inhe_capital_bud_capital_budget">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation/>
@@ -46,7 +47,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>GibsJT</sys_created_by>
         <sys_created_on>2015-08-28 15:45:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>03074a932bc242002ba4c71317da1522</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Additional Comments</sys_name>

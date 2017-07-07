@@ -27,18 +27,42 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>A Capital budget Request&nbsp;${URI_REF}&nbsp;has been Created by: <span>${name}</span>.</p>
-<p>Project Name: ${project_name}</p>
-<p>Item / Project Description: ${item_project_description}<br /><br />&nbsp;</p>
-<p><br />It includes:</p>
-<p>Connects to or uses a network: ${connects_to_or_uses_a_network}</p>
-<p>Uses Protected Information: ${uses_protected_information}</p>
-<p>Interface : ${interface}</p>
-<p>Other Systems impacted: ${other_systems_impacted}</p>
-<p>Impacted Systems: ${impacted_systems}</p>
-<p>Other It Areas Involved: ${other_it_areas_involved}</p>
-<p>Additional Areas Involved: ${additional_areas_involved}</p>
-<p>IT Cost: ${it_cost}</p>
+        <message_html><![CDATA[<style><!--
+.card {
+  border-style: solid;
+    border-color: rgb(0, 156, 125);
+    background-color: #f5f5f5;
+    box-shadow: rgb(230, 230, 230) 0px 0px 9px 2px inset;
+    padding: 20px;
+    font-family: Arial, sans-serif; color: rgb(14, 14, 14);
+    align="top" width="435">
+    transition: 0.3s;
+   width: 90%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+--></style>
+<p><img style="align: baseline;" title="" src="Integris-JPG-logo%20(2).jpgx" alt="" align="baseline" border="" hspace="" vspace="" /></p>
+<p>A Capital budget Request&nbsp;${URI_REF}&nbsp;has been Created by: ${name}.</p>
+<div class="card">
+<p><strong>Project Name</strong>: ${project_name}</p>
+<p><strong>Item / Project Description</strong>: ${item_project_description}<br /><br /><strong>&nbsp;It includes:</strong></p>
+<p><strong>&nbsp; &nbsp; Connects to or uses a network</strong>: ${connects_to_or_uses_a_network}</p>
+<p><strong>&nbsp; &nbsp; Uses Protected Information</strong>: ${uses_protected_information}</p>
+<p><strong>&nbsp; &nbsp; Interface</strong> : ${interface}</p>
+<p><strong>&nbsp; &nbsp; Other Systems impacted</strong>: ${other_systems_impacted}</p>
+<p><strong>&nbsp; &nbsp; Impacted Systems</strong>: ${impacted_systems}</p>
+<p><strong>&nbsp; &nbsp; Other It Areas Involved</strong>: ${other_it_areas_involved}</p>
+<p><strong>&nbsp; &nbsp; Additional Areas Involved</strong>: ${additional_areas_involved}</p>
+<p><strong>&nbsp; &nbsp; IT Cost</strong>: ${it_cost}</p>
+</div>
+<p>&nbsp;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -58,10 +82,10 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>GibsJT</sys_created_by>
         <sys_created_on>2015-10-22 13:01:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b8e070052b5b82002ba4c71317da1524</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Capital Request IT</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
@@ -69,8 +93,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
         <sys_update_name>sysevent_email_action_b8e070052b5b82002ba4c71317da1524</sys_update_name>
-        <sys_updated_by>GibsJT</sys_updated_by>
-        <sys_updated_on>2015-10-29 19:10:21</sys_updated_on>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2017-01-13 16:41:57</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

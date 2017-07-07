@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Capital Budget  Request">8bea2507a04602001b790bc9f7898827</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_inhe_capital_bud_capital_budget">active=false^sys_created_onONLast year@javascript:gs.beginningOfLastYear()@javascript:gs.endOfLastYear()^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last year@javascript:gs.beginningOfLastYear()@javascript:gs.endOfLastYear()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>In Review</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_inhe_capital_bud_capital_budget</name>
+        <order>61</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>PeteBL</sys_created_by>
+        <sys_created_on>2017-01-13 15:48:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f029a92d1354f280339d30128144b009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed (last year)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
+        <sys_update_name>sys_app_module_f029a92d1354f280339d30128144b009</sys_update_name>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2017-01-13 15:48:37</sys_updated_on>
+        <timeline_page/>
+        <title>Closed (last year)</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

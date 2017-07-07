@@ -734,7 +734,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>PeteBL</sys_created_by>
             <sys_created_on>2015-09-30 14:20:23</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>84207b3d2bb686002ba4c71317da158f</sys_id>
             <sys_mod_count>0</sys_mod_count>

@@ -8,7 +8,7 @@
         <sys_class_name>sys_number</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-08-27 19:07:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>42bbe907a04602001b790bc9f789883a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CBR</sys_name>

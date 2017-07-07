@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>GibsJT</sys_created_by>
             <sys_created_on>2015-08-27 20:34:23</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>8faff98f2b0242002ba4c71317da15cd</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Planning Form Number Available</sys_name>

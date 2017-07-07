@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-09-01 13:55:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ef249ee02b5e42002ba4c71317da1556</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>additional_areas_involved</sys_name>

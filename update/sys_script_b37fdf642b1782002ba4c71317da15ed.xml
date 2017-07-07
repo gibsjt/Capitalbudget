@@ -74,7 +74,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>GibsJT</sys_created_by>
         <sys_created_on>2015-10-21 14:04:08</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b37fdf642b1782002ba4c71317da15ed</sys_id>
         <sys_mod_count>34</sys_mod_count>

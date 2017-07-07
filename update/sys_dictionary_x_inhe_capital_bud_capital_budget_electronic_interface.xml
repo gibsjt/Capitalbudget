@@ -3,6 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="electronic_interface" table="x_inhe_capital_bud_capital_budget">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation/>

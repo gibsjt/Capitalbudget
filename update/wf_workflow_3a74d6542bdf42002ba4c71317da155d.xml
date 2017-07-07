@@ -60,7 +60,7 @@
         <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
         <sys_update_name>wf_workflow_3a74d6542bdf42002ba4c71317da155d</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-02-22 17:20:35</sys_updated_on>
+        <sys_updated_on>2016-02-27 19:30:31</sys_updated_on>
         <table>x_inhe_capital_bud_capital_budget</table>
         <template>false</template>
         <vars/>
@@ -93,6 +93,7 @@
         <x>20</x>
         <y>20</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ba74d6542bdf42002ba4c71317da155d"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Begin">ba74d6542bdf42002ba4c71317da155d</activity>
         <condition>true</condition>
@@ -142,6 +143,94 @@
         <x>1077</x>
         <y>630</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b02d52d42bdf42002ba4c71317da1595"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b02d52d42bdf42002ba4c71317da1595</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 13:05:01</sys_created_on>
+        <sys_id>47aed2182bdf42002ba4c71317da1591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 13:05:01</sys_updated_on>
+        <value>Capital Budget - Capital Request Review</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b02d52d42bdf42002ba4c71317da1595</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 13:05:01</sys_created_on>
+        <sys_id>4baed2182bdf42002ba4c71317da1591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 13:05:01</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b02d52d42bdf42002ba4c71317da1595</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 13:05:01</sys_created_on>
+        <sys_id>4faed2182bdf42002ba4c71317da1591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 13:05:01</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b02d52d42bdf42002ba4c71317da1595</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 13:05:01</sys_created_on>
+        <sys_id>c3aed2182bdf42002ba4c71317da1591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 13:05:01</sys_updated_on>
+        <value>A Capital Budget Request has been submitted including a Capital Request.&#13;
+Capital Request Type: ${capital_request_type}&#13;
+Description of Routine Capital: ${description_of_routine_capital}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b02d52d42bdf42002ba4c71317da1595</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 13:05:01</sys_created_on>
+        <sys_id>c7aed2182bdf42002ba4c71317da1591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 13:05:01</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b02d52d42bdf42002ba4c71317da1595</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 13:05:01</sys_created_on>
+        <sys_id>cbaed2182bdf42002ba4c71317da1591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 13:05:01</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>b02d52d42bdf42002ba4c71317da1595</document_key>
@@ -278,6 +367,61 @@ Description of Routine Capital: ${description_of_routine_capital}</value>
         <x>137</x>
         <y>172</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=04d45e142bdf42002ba4c71317da15c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d45e142bdf42002ba4c71317da15c6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:25:39</sys_created_on>
+        <sys_id>52a59e542bdf42002ba4c71317da1598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:25:39</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d45e142bdf42002ba4c71317da15c6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:25:39</sys_created_on>
+        <sys_id>5ea59e542bdf42002ba4c71317da1597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:25:39</sys_updated_on>
+        <value>not_appicable=true^ORmillwork_cabinets_counter_tops_etc=true^ORelectrical_lighting=true^ORwall_covering_paint=true^ORplumbing_fixtures=true^ORdata_voice_wiring=true^ORsignage_way_finding_etc=true^ORmedical_gases=true^ORfurniture=true^ORflooring=true^ORheating_cooling_ventilation=true^ORwall_covering_paint=true^ORother=true^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04d45e142bdf42002ba4c71317da15c6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:25:39</sys_created_on>
+        <sys_id>dea59e542bdf42002ba4c71317da1597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:25:39</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>04d45e142bdf42002ba4c71317da15c6</document_key>
@@ -402,6 +546,107 @@ Description of Routine Capital: ${description_of_routine_capital}</value>
         <x>468</x>
         <y>3</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=04c596542bdf42002ba4c71317da1551"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c596542bdf42002ba4c71317da1551</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:35:31</sys_created_on>
+        <sys_id>03e7de542bdf42002ba4c71317da1550</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:35:31</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c596542bdf42002ba4c71317da1551</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:35:31</sys_created_on>
+        <sys_id>0be7de542bdf42002ba4c71317da154f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:35:31</sys_updated_on>
+        <value>Capital Budget - Construction Verification</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c596542bdf42002ba4c71317da1551</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:35:31</sys_created_on>
+        <sys_id>0fe7de542bdf42002ba4c71317da154f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:35:31</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c596542bdf42002ba4c71317da1551</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:35:31</sys_created_on>
+        <sys_id>87e7de542bdf42002ba4c71317da154f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:35:31</sys_updated_on>
+        <value>There has been a Capital Budget Request with the following areas to be reviewed.&#13;
+&#13;
+Electrical / Lighting: ${electrical_lighting}&#13;
+Not appicable: ${not_appicable}&#13;
+Millwork: ${millwork_cabinets_counter_tops_etc}&#13;
+Electrical / Lighting: ${electrical_lighting}&#13;
+Walls Doors Windows: ${walls_doors_windows}&#13;
+Plumbing / Fixtures: ${plumbing_fixtures}&#13;
+Data / Voice Wiring: ${data_voice_wiring}&#13;
+Signage: ${signage_way_finding_etc}&#13;
+Medical Gases: ${medical_gases}&#13;
+Furniture: ${furniture}&#13;
+Flooring: ${flooring}&#13;
+Heating / Cooling / Ventilation: ${heating_cooling_ventilation}&#13;
+Wall Covering / Paint: ${wall_covering_paint}&#13;
+Other : ${other}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c596542bdf42002ba4c71317da1551</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:35:31</sys_created_on>
+        <sys_id>8be7de542bdf42002ba4c71317da154f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:35:31</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>04c596542bdf42002ba4c71317da1551</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:35:31</sys_created_on>
+        <sys_id>8fe7de542bdf42002ba4c71317da154f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:35:31</sys_updated_on>
+        <value>643d837dad182c00b18b42f747461066</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>04c596542bdf42002ba4c71317da1551</document_key>
@@ -551,6 +796,7 @@ Other : ${other}</value>
         <x>1377</x>
         <y>780</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=7e74d6542bdf42002ba4c71317da155d"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -579,6 +825,99 @@ Other : ${other}</value>
         <x>906</x>
         <y>371</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4b6b96d42bdf42002ba4c71317da1583"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b6b96d42bdf42002ba4c71317da1583</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:56:29</sys_created_on>
+        <sys_id>42bcde942bdf42002ba4c71317da1530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:56:29</sys_updated_on>
+        <value>A Capital budget has been created that includes one or more of the following Areas for review.&#13;
+Connects to or uses a network: ${connects_to_or_uses_a_network}&#13;
+Uses Protected Information: ${uses_protected_information}&#13;
+Interface : ${interface}&#13;
+Impacted Systems: ${impacted_systems}&#13;
+Additional Areas Involved: ${additional_areas_involved}&#13;
+Other It Areas Involved: ${other_it_areas_involved}&#13;
+IT Cost: ${it_cost}</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b6b96d42bdf42002ba4c71317da1583</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:56:29</sys_created_on>
+        <sys_id>46bcde942bdf42002ba4c71317da1530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:56:29</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b6b96d42bdf42002ba4c71317da1583</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:56:29</sys_created_on>
+        <sys_id>4abcde942bdf42002ba4c71317da1530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:56:29</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b6b96d42bdf42002ba4c71317da1583</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:56:29</sys_created_on>
+        <sys_id>c2bcde942bdf42002ba4c71317da1530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:56:29</sys_updated_on>
+        <value>Capital Budget - IT Review</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b6b96d42bdf42002ba4c71317da1583</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:56:29</sys_created_on>
+        <sys_id>c6bcde942bdf42002ba4c71317da1530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:56:29</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>4b6b96d42bdf42002ba4c71317da1583</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:56:29</sys_created_on>
+        <sys_id>cabcde942bdf42002ba4c71317da1530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:56:29</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>4b6b96d42bdf42002ba4c71317da1583</document_key>
@@ -720,6 +1059,61 @@ IT Cost: ${it_cost}</value>
         <x>453</x>
         <y>332</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=78381a942bdf42002ba4c71317da1583"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>78381a942bdf42002ba4c71317da1583</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:37:30</sys_created_on>
+        <sys_id>3358da542bdf42002ba4c71317da15e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:50:33</sys_updated_on>
+        <value>connects_to_or_uses_a_network=true^ORuses_protected_information=true^ORinterface=true^ORother_systems_impacted=true^ORother_it_areas_involved=true^ORimpacted_systemsANYTHING^ORadditional_areas_involvedANYTHING^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>78381a942bdf42002ba4c71317da1583</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:37:30</sys_created_on>
+        <sys_id>3758da542bdf42002ba4c71317da15e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:37:30</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>78381a942bdf42002ba4c71317da1583</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:37:30</sys_created_on>
+        <sys_id>b358da542bdf42002ba4c71317da15e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:37:30</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>78381a942bdf42002ba4c71317da1583</document_key>
@@ -844,6 +1238,61 @@ IT Cost: ${it_cost}</value>
         <x>723</x>
         <y>641</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b3ccde942bdf42002ba4c71317da1557"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b3ccde942bdf42002ba4c71317da1557</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:57:17</sys_created_on>
+        <sys_id>75ec5ed42bdf42002ba4c71317da15bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:57:17</sys_updated_on>
+        <value>routine_capital_request=true^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b3ccde942bdf42002ba4c71317da1557</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:57:17</sys_created_on>
+        <sys_id>79ec5ed42bdf42002ba4c71317da15bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:57:17</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b3ccde942bdf42002ba4c71317da1557</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>GibsJT</sys_created_by>
+        <sys_created_on>2015-10-20 12:57:17</sys_created_on>
+        <sys_id>f5ec5ed42bdf42002ba4c71317da15bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>GibsJT</sys_updated_by>
+        <sys_updated_on>2015-10-20 12:57:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>b3ccde942bdf42002ba4c71317da1557</document_key>

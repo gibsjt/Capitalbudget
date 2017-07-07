@@ -27,25 +27,50 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>A Capital budget Request&nbsp;${URI_REF}&nbsp;has been Created by:<strong>&nbsp;<span>${name}</span>.</strong></p>
-<p>Project Name: ${project_name}</p>
-<p>Item / Project Description: ${item_project_description}<br /><br /><br /></p>
-<p>It includes:</p>
-<p>Millwork: ${millwork_cabinets_counter_tops_etc}</p>
-<p>Flooring: ${flooring}</p>
-<p>Electrical / Lighting: ${electrical_lighting}</p>
-<p>Plumbing / Fixtures: ${plumbing_fixtures}</p>
-<p>Heating / Cooling / Ventilation: ${heating_cooling_ventilation}</p>
-<p>Wall Covering / Paint: ${wall_covering_paint}</p>
-<p>Signage: ${signage_way_finding_etc}</p>
-<p>Data / Voice Wiring: ${data_voice_wiring}</p>
-<p>Furniture: ${furniture}</p>
-<p>Medical Gases: ${medical_gases}</p>
-<p>Equipment (Please Describe): ${equipment_please_describe}</p>
-<p>Walls Doors Windows: ${walls_doors_windows}</p>
-<p>Other : ${other}</p>
-<p>Other Description: ${other_description}</p>
-<p>Construction Cost: ${construction_cost}</p>]]></message_html>
+        <message_html><![CDATA[<style><!--
+.card {
+  border-style: solid;
+    border-color: rgb(0, 156, 125);
+    background-color: #f5f5f5;
+    box-shadow: rgb(230, 230, 230) 0px 0px 9px 2px inset;
+    padding: 20px;
+    font-family: Arial, sans-serif; color: rgb(14, 14, 14);
+    align="top" width="435">
+    transition: 0.3s;
+   width: 90%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+--></style>
+<p><img style="align: baseline;" title="" src="Integris-JPG-logo%20(2).jpgx" alt="" align="baseline" border="" hspace="" vspace="" /></p>
+<p>A Capital budget Request&nbsp;${URI_REF}&nbsp;has been Created by:<strong>&nbsp;${name}.</strong></p>
+<div class="card">
+<p><b>Project Name</b>: ${project_name}</p>
+<p><b>Item / Project Description</b>: ${item_project_description}<br /><br /><br /></p>
+<p><b>It includes</b>:</p>
+<p><b>&nbsp; &nbsp; Millwork</b>: ${millwork_cabinets_counter_tops_etc}</p>
+<p><b>&nbsp; &nbsp; Flooring</b>: ${flooring}</p>
+<p><b>&nbsp; &nbsp; Electrical / Lighting</b>: ${electrical_lighting}</p>
+<p><b>&nbsp; &nbsp; Plumbing / Fixtures</b>: ${plumbing_fixtures}</p>
+<p><b>&nbsp; &nbsp; Heating / Cooling / Ventilation</b>: ${heating_cooling_ventilation}</p>
+<p><b>&nbsp; &nbsp; Wall Covering / Paint</b>: ${wall_covering_paint}</p>
+<p><b>&nbsp; &nbsp; Signage</b>: ${signage_way_finding_etc}</p>
+<p><b>&nbsp; &nbsp; Data / Voice Wiring</b>: ${data_voice_wiring}</p>
+<p><b>&nbsp; &nbsp; Furniture</b>: ${furniture}</p>
+<p><b>&nbsp; &nbsp; Medical Gases</b>: ${medical_gases}</p>
+<p><b>&nbsp; &nbsp; Equipment (Please Describe)</b>: ${equipment_please_describe}</p>
+<p><b>&nbsp; &nbsp; Walls Doors Windows</b>: ${walls_doors_windows}</p>
+<p><b>&nbsp; &nbsp; Other</b> : ${other}</p>
+<p><b>&nbsp; &nbsp; Other Description</b>: ${other_description}</p>
+<p><b>&nbsp; &nbsp; Construction Cost</b>: ${construction_cost}</p>
+</div>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Capital Request Construction</name>
@@ -64,10 +89,10 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>GibsJT</sys_created_by>
         <sys_created_on>2015-10-22 13:01:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1d1134452b5b82002ba4c71317da15ec</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Capital Request Construction</sys_name>
         <sys_overrides/>
         <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
@@ -75,8 +100,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
         <sys_update_name>sysevent_email_action_1d1134452b5b82002ba4c71317da15ec</sys_update_name>
-        <sys_updated_by>GibsJT</sys_updated_by>
-        <sys_updated_on>2015-10-29 19:10:41</sys_updated_on>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2017-01-13 17:20:57</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

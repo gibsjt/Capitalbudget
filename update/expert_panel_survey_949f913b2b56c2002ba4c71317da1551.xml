@@ -12,7 +12,7 @@
         <sys_class_name>expert_panel_survey</sys_class_name>
         <sys_created_by>GibsJT</sys_created_by>
         <sys_created_on>2015-09-11 12:26:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>949f913b2b56c2002ba4c71317da1551</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Panel1</sys_name>

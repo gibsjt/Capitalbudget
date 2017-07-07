@@ -15,7 +15,7 @@
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-09-04 18:44:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>97d23ae92b5682002ba4c71317da15be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Add_Attachment_UI</sys_name>

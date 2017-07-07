@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-08-27 19:03:44</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b229e107a04602001b790bc9f789885f</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Capital Budget</sys_name>

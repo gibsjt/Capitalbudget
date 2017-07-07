@@ -54,10 +54,10 @@
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-08-31 14:55:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>426891982b9a42002ba4c71317da158d</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>populate cost center and business unit</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
@@ -66,10 +66,10 @@
         <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
         <sys_update_name>catalog_script_client_426891982b9a42002ba4c71317da158d</sys_update_name>
         <sys_updated_by>PeteBL</sys_updated_by>
-        <sys_updated_on>2015-09-16 20:53:47</sys_updated_on>
+        <sys_updated_on>2017-01-13 15:41:14</sys_updated_on>
         <table/>
         <type>onChange</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <variable_set/>
         <view/>
     </catalog_script_client>

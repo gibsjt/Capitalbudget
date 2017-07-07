@@ -25,7 +25,7 @@
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-09-01 13:52:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1273dae02b5e42002ba4c71317da156c</sys_id>
         <sys_mod_count>0</sys_mod_count>

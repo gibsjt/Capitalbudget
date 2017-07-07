@@ -15,7 +15,7 @@
         <sys_class_name>sys_relationship</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-08-31 20:47:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>23d8e6d42bda42002ba4c71317da1567</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Capital Approval</sys_name>

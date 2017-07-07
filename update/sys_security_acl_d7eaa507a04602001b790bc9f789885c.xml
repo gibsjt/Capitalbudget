@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-08-27 19:03:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d7eaa507a04602001b790bc9f789885c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_inhe_capital_bud_capital_budget</sys_name>

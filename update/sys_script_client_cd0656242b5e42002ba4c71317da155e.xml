@@ -11,25 +11,25 @@
         <name>IT add</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
-      return;
-   }
+	if (isLoading || newValue == '') {
+		return;
+	}
 	var floatIT = g_form.getValue('it_cost')
 	floatIT = floatIT.replace(/\,/g,'');
 	floatIT = (parseFloat(floatIT).toFixed(2));
 	var boolIT = isNaN(floatIT);
-
+	
 	var floatConstruction= g_form.getValue('construction_cost')
 	floatConstruction = floatConstruction.replace(/\,/g,'');
 	floatConstruction = (parseFloat(floatConstruction).toFixed(2));
 	var boolConstruction = isNaN(floatConstruction);
-
+	
 	
 	var floatEquipment= g_form.getValue('equipment_cost')
 	floatEquipment = floatEquipment.replace(/\,/g,'');
 	floatEquipment = (parseFloat(floatEquipment).toFixed(2));
 	var boolEquipment = isNaN(floatEquipment);
-
+	
 	if (boolIT || boolConstruction || boolEquipment){
 		if (boolIT){
 			g_form.setValue('it_cost', '');
@@ -43,7 +43,9 @@
 			floatEquipment = 0;
 		}
 	}
-	g_form.setValue('it_cost', parseFloat(floatIT).toFixed(2));
+	if (newValue != floatIT) {
+		g_form.setValue('it_cost', parseFloat(floatIT).toFixed(2));
+	}
 	addFields(floatIT, floatConstruction, floatEquipment);
 	
 	function addFields(floatIT, floatConstruction, floatEquipment){
@@ -54,10 +56,10 @@
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>PeteBL</sys_created_by>
         <sys_created_on>2015-09-01 14:03:14</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cd0656242b5e42002ba4c71317da155e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>IT add</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Capital Budget" source="x_inhe_capital_bud">f519e143a04602001b790bc9f7898839</sys_package>
@@ -65,8 +67,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Capital Budget">f519e143a04602001b790bc9f7898839</sys_scope>
         <sys_update_name>sys_script_client_cd0656242b5e42002ba4c71317da155e</sys_update_name>
-        <sys_updated_by>petebl</sys_updated_by>
-        <sys_updated_on>2016-01-18 21:52:41</sys_updated_on>
+        <sys_updated_by>PeteBL</sys_updated_by>
+        <sys_updated_on>2017-01-10 22:16:27</sys_updated_on>
         <table>x_inhe_capital_bud_capital_budget</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

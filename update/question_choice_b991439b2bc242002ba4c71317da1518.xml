@@ -8,7 +8,7 @@
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>GibsJT</sys_created_by>
         <sys_created_on>2015-08-28 20:01:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b991439b2bc242002ba4c71317da1518</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Signs</sys_name>
